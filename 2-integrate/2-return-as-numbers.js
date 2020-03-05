@@ -21,10 +21,13 @@ const returnAsNumbersTests = [
 const returnAsNumbers = (arr) => {
    //cast all non-NaNy strings to numbers and return the new array
    //Hint: early return condition --> array contains any non-strings 
-   if (arr.some(Number)) {
-    return null;
-  } 
-  
+   if (arr.includes(NaN)) 
+     return null;
+   
+   
+   
+
+
 
   
   
