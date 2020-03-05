@@ -1,0 +1,31 @@
+ [...] \2-integrate\3-find-evens.js -- Thu Mar 05 2020
+
+- PASS: 6
+- FAIL: 1
+- ERROR: 0
+
+Test 1: PASS
+
+
+Test 2: PASS
+
+
+Test 3: PASS
+
+
+Test 4: PASS
+
+
+Test 5 (FAIL): Expected values to be strictly deep-equal:
++ actual - expected
+
++ [
++   2
++ ]
+- null
+
+
+Test 6: PASS
+
+
+Test 7: PASS

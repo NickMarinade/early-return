@@ -22,8 +22,16 @@ const sumAllTests = [
 
 const sumAll = (arr) => {
   // write me!
-  // Hint: early return - are there any non-numbers?
   arr.forEach(e => console.log(e))
+  // Hint: early return - are there any non-numbers?
+  if (arr.some(isNaN) || arr.length > 3){
+    return null;
+  } else{
+    return arr.reduce((a, b) => a + b, 0);
+  }
+  
+  
+  //return arr.reduce((a, b) => a + b, 0);
 };
 
 evaluate(sumAll, sumAllTests);

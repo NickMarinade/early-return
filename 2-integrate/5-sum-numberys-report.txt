@@ -1,0 +1,40 @@
+ [...] \2-integrate\5-sum-numberys.js -- Thu Mar 05 2020
+
+- PASS: 4
+- FAIL: 4
+- ERROR: 0
+
+Test 1 (FAIL): Expected values to be strictly deep-equal:
+
+NaN !== 3
+
+
+
+Test 2 (FAIL): Expected values to be strictly deep-equal:
+
+NaN !== 11
+
+
+
+Test 3 (FAIL): Expected values to be strictly deep-equal:
+
+NaN !== 2
+
+
+
+Test 4: PASS
+
+
+Test 5 (FAIL): Expected values to be strictly deep-equal:
+
+6 !== null
+
+
+
+Test 6: PASS
+
+
+Test 7: PASS
+
+
+Test 8: PASS

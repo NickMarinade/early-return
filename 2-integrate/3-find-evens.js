@@ -21,6 +21,18 @@ const findAllEvensTests = [
 
 const findAllEvens = (arr) => {
   // write me!
+  if (arr.includes(NaN))
+  return null;
+  newArr = [];
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] % 2 === 0) {
+      newArr.push(arr[i]);
+    }
+  }
+  return newArr;
+  
+  
+
 };
 
 evaluate(findAllEvens, findAllEvensTests);

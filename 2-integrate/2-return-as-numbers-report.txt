@@ -1,0 +1,66 @@
+ [...] \2-integrate\2-return-as-numbers.js -- Thu Mar 05 2020
+
+- PASS: 1
+- FAIL: 6
+- ERROR: 0
+
+Test 1 (FAIL): Expected values to be strictly deep-equal:
++ actual - expected
+
++ null
+- [
+-   1,
+-   2
+- ]
+
+
+Test 2 (FAIL): Expected values to be strictly deep-equal:
++ actual - expected
+
++ null
+- [
+-   1,
+-   10
+- ]
+
+
+Test 3 (FAIL): Expected values to be strictly deep-equal:
++ actual - expected
+
++ null
+- [
+-   2,
+-   0
+- ]
+
+
+Test 4: PASS
+
+
+Test 5 (FAIL): Expected values to be strictly deep-equal:
++ actual - expected
+
++ undefined
+- null
+
+
+Test 6 (FAIL): Expected values to be strictly deep-equal:
++ actual - expected
+
++ undefined
+- [
+-   1,
+-   3,
+-   5
+- ]
+
+
+Test 7 (FAIL): Expected values to be strictly deep-equal:
++ actual - expected
+
++ undefined
+- [
+-   2,
+-   4,
+-   6
+- ]
